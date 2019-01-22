@@ -1,0 +1,38 @@
+{
+  "name": "protonmail-api",
+  "version": "1.0.0",
+  "description": "Node.js API for ProtonMail",
+  "repository": "github:justinkalland/protonmail-api",
+  "homepage": "https://github.com/justinkalland/protonmail-api#readme",
+  "bugs": {
+    "url": "https://github.com/justinkalland/protonmail-api/issues"
+  },
+  "author": "Justin Kalland <justin@kalland.ch>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests --recursive --timeout 30000",
+    "lint": "eslint . || true",
+    "jsdoc": "jsdoc -c .jsdoc.json"
+  },
+  "dependencies": {
+    "puppeteer": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "docdash": "^1.0.2",
+    "eslint-config-jk": "^1.4.0",
+    "jsdoc": "^3.5.5",
+    "mocha": "^5.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "eslintConfig": {
+    "extends": "jk"
+  }
+}

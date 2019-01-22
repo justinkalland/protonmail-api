@@ -1,0 +1,27 @@
+
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "opts": {
+    "template": "node_modules/docdash",
+    "encoding": "utf8",
+    "destination": "docs",
+    "recurse": true,
+    "verbose": true
+  },
+  "source": {
+    "include": [
+      "index.js",
+      "lib"
+    ]
+  },
+  "templates": {
+      "default": {
+          "outputSourceFiles": false
+      }
+  },
+  "docdash": {
+    "sort": true
+  }
+}
