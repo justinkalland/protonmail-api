@@ -1,7 +1,7 @@
 # protonmail-api
 Unofficial API for interacting with ProtonMail.
 
-Allows interaction with ProtonMail through a simple Node.js API. Leverages the official [WebClient](https://github.com/ProtonMail/WebClient), keeping with the spirit of security and privacy. Currently supports sending email, managing email, and managing labels and folders. See the [documentation]() for full functionality.
+Allows interaction with ProtonMail through a simple Node.js API. Leverages the official [WebClient](https://github.com/ProtonMail/WebClient), keeping with the spirit of security and privacy. Currently supports sending email, managing email/conversations, and managing labels and folders. See the [documentation](https://justinkalland.github.io/protonmail-api/) for full functionality.
 
 _This project is not endorsed or supported by Proton Technologies AG._
 
@@ -31,7 +31,7 @@ const ProtonMail = require('protonmail-api');
 ```
 
 # Documentation
-(todo link to docs)
+[Full documentation found here](https://justinkalland.github.io/protonmail-api/)
 
 # How?
 This library uses [Puppeteer](https://github.com/GoogleChrome/puppeteer) (headless Chromium) to load and control the official [ProtonMail WebClient](https://github.com/ProtonMail/WebClient).
