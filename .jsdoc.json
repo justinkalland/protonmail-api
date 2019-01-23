@@ -13,7 +13,7 @@
   },
   "source": {
     "include": [
-      "index.js",
+      "DOCS_README.md",
       "lib"
     ]
   },
