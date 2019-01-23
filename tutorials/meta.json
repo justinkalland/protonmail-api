@@ -1,5 +1,16 @@
 {
   "send-email": {
-      "title": "Send Email"
+    "title": "Send Email"
+  },
+  "labels": {
+    "title": "Labels",
+    "children": {
+      "create-label": {
+          "title": "Create a New Label"
+      },
+      "delete-label": {
+        "title": "Delete a Label"
+    }
+  }
   }
 }
