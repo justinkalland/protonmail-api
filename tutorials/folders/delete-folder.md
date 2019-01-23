@@ -7,17 +7,17 @@ const ProtonMail = require('protonmail-api');
     password: 'somethingsecure'
   })
 
-  // Get label object by name
-  const label = pm.getLabelByName('foo bar')
+  // Get folder object by name
+  const folder = pm.getFolderByName('foo bar folder')
 
   // Delete the label
-  await label.delete()
-  console.log(`Label ${label.name} was deleted`)
+  await folder.delete()
+  console.log(`Folder ${folder.name} was deleted`)
 
   pm.close()
 })()
 ```
 
 ### Further resources:
-- {@link ProtonMail#getLabelByName|getLabelByName method}
-- {@link Label|Label class}
+- {@link ProtonMail#getFolderByName|getFolderByName method}
+- {@link Folder|Folder class}

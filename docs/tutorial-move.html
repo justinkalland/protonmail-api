@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>Tutorial: Send Email - Documentation</title>
+    <title>Tutorial: Move an Email or Conversation - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -31,7 +31,7 @@
 
 <div id="main">
     
-    <h1 class="page-title">Tutorial: Send Email</h1>
+    <h1 class="page-title">Tutorial: Move an Email or Conversation</h1>
     
 
     <section>
@@ -39,7 +39,7 @@
 <header>
     
 
-    <h2>Send Email</h2>
+    <h2>Move an Email or Conversation</h2>
 </header>
 
 <article>
@@ -51,14 +51,23 @@
     password: 'somethingsecure'
   })
 
-  await pm.sendEmail({
-    to: 'justin@kalland.ch',
-    subject: 'Send email tutorial',
-    body: 'Hello world'
-  })
+  // Get the first email in the inbox
+  const emailsInInbox = await pm.getEmails('inbox')
+  const email = emailsInInbox[0]
+
+  // Move the email to the trash
+  await email.move('trash')
+  console.log(`The email now is now in: ${email.folder.name}`)
 
   pm.close()
-})()</code></pre>
+})()</code></pre><p>Moving conversations works the same way, with the same method .move:</p>
+<pre class="prettyprint source lang-js"><code>const conversationsInInbox = await pm.getConversations('inbox')
+const conversation = conversationsInInbox[0]
+await conversation.move('trash')</code></pre><h3>Further resources:</h3><ul>
+<li><a href="Folder.html">Folder class</a></li>
+<li><a href="Email.html">Email class</a></li>
+<li><a href="Conversation.html">Conversation class</a></li>
+</ul>
 </article>
 
 </section>

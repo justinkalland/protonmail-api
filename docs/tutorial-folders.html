@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>Tutorial: Send Email - Documentation</title>
+    <title>Tutorial: Folders - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -31,34 +31,28 @@
 
 <div id="main">
     
-    <h1 class="page-title">Tutorial: Send Email</h1>
+    <h1 class="page-title">Tutorial: Folders</h1>
     
 
     <section>
 
 <header>
     
+    <ul>
+        <li><a href="tutorial-create-folder.html">Create a New Folder</a></li>
+    
+        <li><a href="tutorial-delete-folder.html">Delete a Folder</a></li>
+    
+        <li><a href="tutorial-move.html">Move an Email or Conversation</a></li>
+    </ul>
+    
 
-    <h2>Send Email</h2>
+    <h2>Folders</h2>
 </header>
 
 <article>
-    <pre class="prettyprint source lang-js"><code>const ProtonMail = require('protonmail-api');
-
-(async () => {
-  const pm = await ProtonMail.connect({
-    username: 'foobar@protonmail.com',
-    password: 'somethingsecure'
-  })
-
-  await pm.sendEmail({
-    to: 'justin@kalland.ch',
-    subject: 'Send email tutorial',
-    body: 'Hello world'
-  })
-
-  pm.close()
-})()</code></pre>
+    <p>An email or conversation can only be in one folder at a time (unlike labels).</p>
+<p>ProtonMail provides default folders such as <code>inbox</code>, <code>trash</code>, or <code>spam</code>. Custom folders can also be created.</p>
 </article>
 
 </section>

@@ -15,5 +15,19 @@
         "title": "Add and Remove Labels on Emails/Conversations"
       }
     }
+  },
+  "folders": {
+    "title": "Folders",
+    "children": {
+      "create-folder": {
+          "title": "Create a New Folder"
+      },
+      "delete-folder": {
+        "title": "Delete a Folder"
+      },
+      "move": {
+        "title": "Move an Email or Conversation"
+      }
+    }
   }
 }
