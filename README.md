@@ -29,6 +29,8 @@ const ProtonMail = require('protonmail-api');
   pm.close()
 })()
 ```
+## More Examples
+Numerous examples can be found in the [tutorials section of the documentation](https://justinkalland.github.io/protonmail-api/).
 
 # Documentation
 [Full documentation found here](https://justinkalland.github.io/protonmail-api/)
