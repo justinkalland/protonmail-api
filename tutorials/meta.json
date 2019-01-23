@@ -10,7 +10,10 @@
       },
       "delete-label": {
         "title": "Delete a Label"
+      },
+      "tag-untag": {
+        "title": "Add and Remove Labels on Emails/Conversations"
+      }
     }
-  }
   }
 }
