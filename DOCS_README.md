@@ -10,6 +10,8 @@ npm install protonmail-api
 ```
 
 # Tutorials
+In the process of adding more tutorials. For now another place to look is the [integration tests](https://github.com/justinkalland/protonmail-api/tree/master/tests/integration)
+
 - {@tutorial folders}
   - {@tutorial create-folder}
   - {@tutorial delete-folder}
