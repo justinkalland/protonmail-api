@@ -3,7 +3,7 @@
 <head>
     
     <meta charset="utf-8">
-    <title>Tutorial: Add and Remove Labels on Emails/Conversations - Documentation</title>
+    <title>Tutorial: Conversations - Documentation</title>
     
     
     <script src="scripts/prettify/prettify.js"></script>
@@ -31,7 +31,7 @@
 
 <div id="main">
     
-    <h1 class="page-title">Tutorial: Add and Remove Labels on Emails/Conversations</h1>
+    <h1 class="page-title">Tutorial: Conversations</h1>
     
 
     <section>
@@ -39,40 +39,11 @@
 <header>
     
 
-    <h2>Add and Remove Labels on Emails/Conversations</h2>
+    <h2>Conversations</h2>
 </header>
 
 <article>
-    <pre class="prettyprint source lang-js"><code>const ProtonMail = require('protonmail-api');
-
-(async () => {
-  const pm = await ProtonMail.connect({
-    username: 'foobar@protonmail.com',
-    password: 'somethingsecure'
-  })
-
-  // Get the first email in the inbox
-  const emailsInInbox = await pm.getEmails('inbox')
-  const email = emailsInInbox[0]
-
-  // Tag the email with a label
-  await email.addLabel('foo bar')
-  console.log(`The email now has ${email.labels.length} labels`)
-
-  // Untag the email
-  await email.removeLabel('foo bar')
-  console.log(`The email now has ${email.labels.length} labels`)
-
-  pm.close()
-})()</code></pre><p>Adding and removing labels from conversations works the same way, with the same method names:</p>
-<pre class="prettyprint source lang-js"><code>const conversationsInInbox = await pm.getConversations('inbox')
-const conversation = conversationsInInbox[0]
-await conversation.addLabel('foo bar')
-await conversation.removeLavbel('foo bar')</code></pre><h3>Further resources:</h3><ul>
-<li><a href="Label.html">Label class</a></li>
-<li><a href="Email.html">Email class</a></li>
-<li><a href="Conversation.html">Conversation class</a></li>
-</ul>
+    <p>A conversation is a group of related emails. Algorithms on the server side of ProtonMail determine how to group emails into conversations. Conversations have many similar properties as individual emails, such as labels, moving folders, and stars. With this API you can choose to work with individual emails, or with conversations. Both can be fetched and sorted in a similar fashion. Working with individual emails is recommended because it is more predictable (conversation grouping is a black box).</p>
 </article>
 
 </section>

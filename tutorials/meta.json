@@ -29,5 +29,16 @@
         "title": "Move an Email or Conversation"
       }
     }
+  },
+  "emails": {
+    "title": "Emails",
+    "children": {
+      "move-inbox-to-spam-for-viagra": {
+          "title": "Move emails from inbox to spam if they contain the word 'viagra'"
+      }
+    }
+  },
+  "conversations": {
+    "title": "Conversations"
   }
 }
