@@ -177,4 +177,34 @@ describe('Email', () => {
       expect(emailLookup.isStarred).to.equal(false)
     })
   })
+
+  describe('read / unread', async () => {
+    let email
+
+    before(async () => {
+      email = await support.pm.sendEmail({
+        to: support.pm._accountAddressData.Email,
+        subject: `TEST ${support.randomString()}`,
+        body: support.randomString()
+      })
+    })
+
+    after(async () => {
+      await email.delete()
+    })
+
+    it('starts unread', async () => {
+      expect(email.isRead).to.equal(false)
+    })
+
+    it('marks read and then unread', async () => {
+      await email.read()
+      const emailLookupRead = await support.pm.getEmail(email.id)
+      expect(emailLookupRead.isRead).to.equal(true)
+
+      await emailLookupRead.unread()
+      const emailLookupUnread = await support.pm.getEmail(email.id)
+      expect(emailLookupUnread.isRead).to.equal(false)
+    })
+  })
 })
