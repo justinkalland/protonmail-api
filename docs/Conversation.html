@@ -13,6 +13,7 @@
     <![endif]-->
     <link type="text/css" rel="stylesheet" href="styles/prettify.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -26,7 +27,7 @@
 
 <nav >
     
-    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/justinkalland/protonmail-api" class="menu-item" id="source_link" >GitHub </a></h2><h3>Tutorials</h3><ul><li><a href="tutorial-conversations.html">Conversations</a></li><li><a href="tutorial-emails.html">Emails</a></li><li><a href="tutorial-folders.html">Folders</a></li><li><a href="tutorial-labels.html">Labels</a></li><li><a href="tutorial-send-email.html">Send Email</a></li></ul><h3>Classes</h3><ul><li><a href="Address.html">Address</a></li><li><a href="Conversation.html">Conversation</a><ul class='methods'><li data-type='method'><a href="Conversation.html#addLabel">addLabel</a></li><li data-type='method'><a href="Conversation.html#delete">delete</a></li><li data-type='method'><a href="Conversation.html#getEmails">getEmails</a></li><li data-type='method'><a href="Conversation.html#move">move</a></li><li data-type='method'><a href="Conversation.html#removeLabel">removeLabel</a></li><li data-type='method'><a href="Conversation.html#star">star</a></li><li data-type='method'><a href="Conversation.html#unstar">unstar</a></li></ul></li><li><a href="Email.html">Email</a><ul class='methods'><li data-type='method'><a href="Email.html#addLabel">addLabel</a></li><li data-type='method'><a href="Email.html#delete">delete</a></li><li data-type='method'><a href="Email.html#getBody">getBody</a></li><li data-type='method'><a href="Email.html#getConversation">getConversation</a></li><li data-type='method'><a href="Email.html#move">move</a></li><li data-type='method'><a href="Email.html#removeLabel">removeLabel</a></li><li data-type='method'><a href="Email.html#star">star</a></li><li data-type='method'><a href="Email.html#unstar">unstar</a></li></ul></li><li><a href="Folder.html">Folder</a><ul class='methods'><li data-type='method'><a href="Folder.html#delete">delete</a></li></ul></li><li><a href="Label.html">Label</a><ul class='methods'><li data-type='method'><a href="Label.html#delete">delete</a></li></ul></li><li><a href="ProtonMail.html">ProtonMail</a><ul class='methods'><li data-type='method'><a href="ProtonMail.html#.connect">connect</a></li><li data-type='method'><a href="ProtonMail.html#close">close</a></li><li data-type='method'><a href="ProtonMail.html#createFolder">createFolder</a></li><li data-type='method'><a href="ProtonMail.html#createLabel">createLabel</a></li><li data-type='method'><a href="ProtonMail.html#getConversation">getConversation</a></li><li data-type='method'><a href="ProtonMail.html#getConversationCounts">getConversationCounts</a></li><li data-type='method'><a href="ProtonMail.html#getConversations">getConversations</a></li><li data-type='method'><a href="ProtonMail.html#getEmail">getEmail</a></li><li data-type='method'><a href="ProtonMail.html#getEmailCounts">getEmailCounts</a></li><li data-type='method'><a href="ProtonMail.html#getEmails">getEmails</a></li><li data-type='method'><a href="ProtonMail.html#getFolderById">getFolderById</a></li><li data-type='method'><a href="ProtonMail.html#getFolderByName">getFolderByName</a></li><li data-type='method'><a href="ProtonMail.html#getLabelById">getLabelById</a></li><li data-type='method'><a href="ProtonMail.html#getLabelByName">getLabelByName</a></li><li data-type='method'><a href="ProtonMail.html#sendEmail">sendEmail</a></li></ul></li></ul>
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/justinkalland/protonmail-api" class="menu-item" id="source_link" >GitHub </a></h2><h3>Tutorials</h3><ul><li><a href="tutorial-conversations.html">Conversations</a></li><li><a href="tutorial-emails.html">Emails</a></li><li><a href="tutorial-folders.html">Folders</a></li><li><a href="tutorial-labels.html">Labels</a></li><li><a href="tutorial-send-email.html">Send Email</a></li></ul><h3>Classes</h3><ul><li><a href="Address.html">Address</a></li><li><a href="Conversation.html">Conversation</a><ul class='methods'><li data-type='method'><a href="Conversation.html#addLabel">addLabel</a></li><li data-type='method'><a href="Conversation.html#delete">delete</a></li><li data-type='method'><a href="Conversation.html#getEmails">getEmails</a></li><li data-type='method'><a href="Conversation.html#move">move</a></li><li data-type='method'><a href="Conversation.html#removeLabel">removeLabel</a></li><li data-type='method'><a href="Conversation.html#star">star</a></li><li data-type='method'><a href="Conversation.html#unstar">unstar</a></li></ul></li><li><a href="Email.html">Email</a><ul class='methods'><li data-type='method'><a href="Email.html#addLabel">addLabel</a></li><li data-type='method'><a href="Email.html#delete">delete</a></li><li data-type='method'><a href="Email.html#getBody">getBody</a></li><li data-type='method'><a href="Email.html#getConversation">getConversation</a></li><li data-type='method'><a href="Email.html#move">move</a></li><li data-type='method'><a href="Email.html#read">read</a></li><li data-type='method'><a href="Email.html#removeLabel">removeLabel</a></li><li data-type='method'><a href="Email.html#star">star</a></li><li data-type='method'><a href="Email.html#unread">unread</a></li><li data-type='method'><a href="Email.html#unstar">unstar</a></li></ul></li><li><a href="Folder.html">Folder</a><ul class='methods'><li data-type='method'><a href="Folder.html#delete">delete</a></li></ul></li><li><a href="Label.html">Label</a><ul class='methods'><li data-type='method'><a href="Label.html#delete">delete</a></li></ul></li><li><a href="ProtonMail.html">ProtonMail</a><ul class='methods'><li data-type='method'><a href="ProtonMail.html#.connect">connect</a></li><li data-type='method'><a href="ProtonMail.html#close">close</a></li><li data-type='method'><a href="ProtonMail.html#createFolder">createFolder</a></li><li data-type='method'><a href="ProtonMail.html#createLabel">createLabel</a></li><li data-type='method'><a href="ProtonMail.html#getConversation">getConversation</a></li><li data-type='method'><a href="ProtonMail.html#getConversationCounts">getConversationCounts</a></li><li data-type='method'><a href="ProtonMail.html#getConversations">getConversations</a></li><li data-type='method'><a href="ProtonMail.html#getEmail">getEmail</a></li><li data-type='method'><a href="ProtonMail.html#getEmailCounts">getEmailCounts</a></li><li data-type='method'><a href="ProtonMail.html#getEmails">getEmails</a></li><li data-type='method'><a href="ProtonMail.html#getFolderById">getFolderById</a></li><li data-type='method'><a href="ProtonMail.html#getFolderByName">getFolderByName</a></li><li data-type='method'><a href="ProtonMail.html#getLabelById">getLabelById</a></li><li data-type='method'><a href="ProtonMail.html#getLabelByName">getLabelByName</a></li><li data-type='method'><a href="ProtonMail.html#sendEmail">sendEmail</a></li></ul></li></ul>
 </nav>
 
 <div id="main">
@@ -57,6 +58,8 @@
 
     
 
+    
+    
     
 
      
@@ -177,7 +180,7 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     The unique identifier of the conversation.
 </div>
 
@@ -511,7 +514,7 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Tag the conversation with a label.
 </div>
 
@@ -589,6 +592,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -611,6 +616,7 @@
 </dl>
 
     
+
 
 
         
@@ -664,9 +670,11 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Permanently deletes the conversation and associated emails. It will be gone forever! It will NOT be in the trash!
 </div>
+
+
 
 
 
@@ -712,6 +720,7 @@
 </dl>
 
     
+
 
 
         
@@ -765,9 +774,11 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Get the emails that belong to the conversation.
 </div>
+
+
 
 
 
@@ -809,6 +820,7 @@
 </dl>
 
     
+
 
 
         
@@ -862,7 +874,7 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Move the conversation to a new folder.
 </div>
 
@@ -937,6 +949,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -959,6 +973,7 @@
 </dl>
 
     
+
 
 
         
@@ -1012,7 +1027,7 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Untag the conversation.
 </div>
 
@@ -1090,6 +1105,8 @@
 
 
 
+
+
 <h5>Returns:</h5>
 
         
@@ -1112,6 +1129,7 @@
 </dl>
 
     
+
 
 
         
@@ -1165,9 +1183,11 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Star (favorite) the conversation.
 </div>
+
+
 
 
 
@@ -1213,6 +1233,7 @@
 </dl>
 
     
+
 
 
         
@@ -1266,9 +1287,11 @@
 
 
 
-<div class="description">
+<div class="description usertext">
     Unstar (unfavorite) the conversation.
 </div>
+
+
 
 
 
@@ -1316,6 +1339,7 @@
     
 
 
+
         
     
 
@@ -1336,11 +1360,13 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.4</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
 <script src="scripts/linenumber.js"></script>
+
 
 
 </body>
