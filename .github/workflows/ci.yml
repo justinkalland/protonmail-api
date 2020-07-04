@@ -30,3 +30,7 @@ jobs:
         env:
           PM_USERNAME: ${{ secrets.PM_USERNAME }}
           PM_PASSWORD: ${{ secrets.PM_PASSWORD }}
+      - uses: actions/upload-artifact@v2
+        with:
+          name: screens
+          path: screens/

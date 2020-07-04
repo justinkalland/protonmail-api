@@ -11,7 +11,7 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha tests --recursive --timeout 30000",
-    "lint": "eslint . || true",
+    "lint": "eslint .",
     "jsdoc": "jsdoc -c .jsdoc.json",
     "validate": "run-s test lint",
     "prerelease": "git checkout master && git pull origin master && run-s validate jsdoc",
