@@ -1,4 +1,4 @@
-# OS X
+# MacOS
 .DS_Store*
 Icon?
 ._*
@@ -12,11 +12,25 @@ Desktop.ini
 .directory
 *~
 
+# Temp paths
+tmp/
+temp/
+
+# Editors
+.idea/
+.vscode/
+
+# TypeScript
+dist/
+
 # npm
-node_modules
-package-lock.json
+node_modules/
 *.log
 *.gz
 
-# app
-test.js
+# jest & nyc
+coverage/
+.nyc_output/
+
+# dotenv
+.env
