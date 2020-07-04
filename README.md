@@ -49,3 +49,9 @@ Example:
 ```
 PM_USERNAME=footest@protonmail.com PM_PASSWORD=kgjSOE223qWer npm run test
 ```
+
+Or create a `.env` file (in this directory next to `package.json`:
+```
+PM_USERNAME=footest@protonmail.com
+PM_PASSWORD=kgjSOE223qWer
+```

@@ -1,5 +1,6 @@
 const crypto = require('crypto')
 const ProtonMail = require('../../lib/proton-mail')
+require('dotenv').config()
 const username = process.env.PM_USERNAME
 const password = process.env.PM_PASSWORD
 const pm = new ProtonMail({

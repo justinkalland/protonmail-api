@@ -26,6 +26,7 @@
     "@commitlint/config-conventional": "^9.0.1",
     "chai": "^4.2.0",
     "docdash": "github:clenemt/docdash",
+    "dotenv": "^8.2.0",
     "eslint-config-jk": "^1.6.0",
     "jsdoc": "^3.6.4",
     "mocha": "^8.0.1",
