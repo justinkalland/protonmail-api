@@ -9,7 +9,9 @@ const pm = new ProtonMail({
 })
 
 before(async () => {
+  console.log('----------- Oh yes we are getting ready to connect')
   await pm._connect()
+  console.log('----------- And connected')
 })
 
 after(() => {
