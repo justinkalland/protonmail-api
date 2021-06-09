@@ -1,11 +1,11 @@
 {
-  "name": "@jim-fx/protonmail-api",
-  "version": "2.2.0",
+  "name": "protonmail-api",
+  "version": "2.1.1",
   "description": "Node.js API for ProtonMail",
-  "repository": "github:jim-fx/protonmail-api",
-  "homepage": "https://github.com/jim-fx/protonmail-api#readme",
+  "repository": "github:justinkalland/protonmail-api",
+  "homepage": "https://github.com/justinkalland/protonmail-api#readme",
   "bugs": {
-    "url": "https://github.com/jim-fx/protonmail-api/issues"
+    "url": "https://github.com/justinkalland/protonmail-api/issues"
   },
   "author": "Justin Kalland <justin@kalland.com>",
   "license": "MIT",
