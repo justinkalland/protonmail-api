@@ -1,6 +1,6 @@
 {
   "name": "@jim-fx/protonmail-api",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Node.js API for ProtonMail",
   "repository": "github:jim-fx/protonmail-api",
   "homepage": "https://github.com/jim-fx/protonmail-api#readme",
