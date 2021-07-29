@@ -9,6 +9,7 @@
   },
   "author": "Justin Kalland <justin@kalland.com>",
   "license": "MIT",
+  "types": "./types.d.ts",
   "scripts": {
     "test": "mocha tests --recursive --timeout 30000",
     "lint": "eslint . || true",
