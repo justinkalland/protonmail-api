@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/justinkalland/protonmail-api/compare/v2.2.0...v2.3.0) (2021-08-03)
+
+
+### Features
+
+* add Types for TypeScript ([#82](https://github.com/justinkalland/protonmail-api/issues/82)) ([a032ebc](https://github.com/justinkalland/protonmail-api/commit/a032ebc2e1b89486dabfefb923ae2cbe4ba97f12))
+
 ## [2.2.0](https://github.com/justinkalland/protonmail-api/compare/v2.1.1...v2.2.0) (2021-06-17)
 
 
