@@ -20,7 +20,7 @@
     "prepublishOnly": "npm run test"
   },
   "dependencies": {
-    "puppeteer": "^10.0.0"
+    "puppeteer": "^19.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
