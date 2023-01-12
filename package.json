@@ -23,7 +23,7 @@
     "puppeteer": "^10.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
+    "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^12.1.4",
     "chai": "^4.3.4",
     "docdash": "github:clenemt/docdash",
